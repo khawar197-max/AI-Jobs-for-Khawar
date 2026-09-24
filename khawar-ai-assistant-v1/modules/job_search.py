@@ -54,10 +54,30 @@ def _domain(url):
 def search_web(query, max_results=8):
     try:
         with DDGS() as ddgs:
-            return list(ddgs.text(query, max_results=max_results))
-    except Exception:
-        return []
+            results = ddgs.text(
+                query,
+                region="wt-wt",
+                safesearch="moderate",
+                max_results=max_results
+            )
 
+            output = []
+
+            for result in results:
+                if not isinstance(result, dict):
+                    continue
+
+                output.append({
+                    "title": result.get("title", ""),
+                    "href": result.get("href", ""),
+                    "body": result.get("body", "")
+                })
+
+            return output
+
+    except Exception as e:
+        print("DDGS SEARCH ERROR:", repr(e))
+        return []
 def search_opportunities(
     profile,
     opportunity_type,
