@@ -1,0 +1,104 @@
+{
+  "name": "Khawar Khalid",
+  "target_fields": [
+    "Civil Engineering",
+    "Geotechnical Engineering",
+    "Highway Engineering",
+    "Transportation Engineering",
+    "Urban Planning",
+    "Urban Planning and Management",
+    "Smart Cities",
+    "GIS",
+    "Municipal Services",
+    "AI for Public Sector",
+    "Generative AI",
+    "Infrastructure",
+    "EPC",
+    "Remote Engineering",
+    "Research"
+  ],
+  "education": [
+    {
+      "degree": "B.E. Civil Engineering",
+      "institution": "University of Engineering and Technology Lahore",
+      "year": "2015/2016"
+    },
+    {
+      "degree": "M.E. Geotechnical & Highway Engineering",
+      "institution": "Mehran University of Engineering and Technology Jamshoro",
+      "year": "2020"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Municipal Officer / Grade 17",
+      "sector": "Government / Local Government",
+      "description": "Municipal administration, local government services, taxation/survey-related work, public-sector coordination and municipal service delivery."
+    },
+    {
+      "role": "Civil / Site Engineer",
+      "sector": "Private sector",
+      "description": "Civil/site engineering experience."
+    },
+    {
+      "role": "Junior Elementary School Teacher",
+      "sector": "Government",
+      "description": "Government education service."
+    }
+  ],
+  "skills": [
+    "Civil Engineering",
+    "Geotechnical Engineering",
+    "Highway Engineering",
+    "Municipal Administration",
+    "Urban Planning",
+    "Public Sector Management",
+    "Generative AI",
+    "Prompt Engineering",
+    "Streamlit",
+    "Python",
+    "GitHub",
+    "RAG / FAISS",
+    "AI application development",
+    "GIS / Smart City interests"
+  ],
+  "projects": [
+    {
+      "name": "UrbanSense",
+      "description": "AI-powered municipal services and citizen-guidelines assistant built with Streamlit, Groq and retrieval-based techniques."
+    },
+    {
+      "name": "Khawar AI Career Assistant",
+      "description": "AI career assistant concept for finding jobs, funded PhD opportunities, tailoring CVs and generating cover letters."
+    }
+  ],
+  "preferences": {
+    "target_locations": [
+      "Worldwide",
+      "Europe",
+      "USA",
+      "Canada",
+      "Gulf",
+      "Australia",
+      "New Zealand",
+      "Pakistan",
+      "Remote"
+    ],
+    "interests": [
+      "Fully funded PhD",
+      "Scholarships with stipend",
+      "International jobs",
+      "Remote jobs",
+      "Civil/geotechnical/highway engineering",
+      "Urban planning",
+      "Smart cities",
+      "AI",
+      "GIS",
+      "Infrastructure"
+    ],
+    "avoid": [
+      "Do not prioritize Municipal Officer/local-government jobs in Pakistan when the exclusion filter is enabled."
+    ]
+  },
+  "base_cv": "Replace this field with the latest full CV text for more accurate tailoring."
+}
